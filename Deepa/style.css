@@ -55,8 +55,25 @@ body{
     color: #1A1A1A;
 }
 
+/* check */
+
 .navbar-check{
   display: none;
+}
+#check{
+  display: none;
+}
+.navbar-items-check ul{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+  list-style: none;
+  
+}
+.navbar-items-check a{
+  text-decoration: none;
+  font-weight: 900;
 }
 
 
@@ -1146,7 +1163,7 @@ transition: all .3s;
   .navbar-check{
     display: block;
     font-size: 20px;
-    /* position: relative; */
+    
   }
   .navbar{
     display: none;
@@ -1172,11 +1189,257 @@ transition: all .3s;
   }
   .navbar-test{
     height: 100vh;
-    width: 300px;
-    background-color: red;
+    width: 500px;
+    background-color: white;
     position: absolute;
     top:0;
     left: 0;
+    z-index: 1000;
+    padding: 0rem 0rem 1rem 0rem;
+    border-radius: 5px;
     
   }
+  .navbar-test .top-navbar-logo{
+  background-color: rgb(141, 154, 197);
+  }
+
+
+  /* navbar end */
+  .slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+  .slider-content-c1{
+    font-size: 13px;
+  }
+  .container2 {
+    width: 100vw;
+    height: 50vh;
+    background-image: url("https://www.montecarlo.in/cdn/shop/files/Men_be465b5b-c24d-4d70-a9d4-273fa67e2c34.jpg?v=1697879681&width=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    object-fit: fill;
+    
+}
+.container2-content{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.container2-content a {
+  font-size: 14px;
+}
+.container5-images{
+  display: flex;
+  
+}
+.container6-full{
+  width: 100%;
+  height: 200px;
+}
+.container7-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.container7-imgaes-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.c7-image{
+  width: 20rem;
+  height: 20rem;
+}
+.container8-images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.c8-image {
+  width: 20rem;
+  height: 20rem;
+}
+.footer-content{
+  display: none;
+}
+#end-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+}
+@media screen and (min-width:370px) and (max-width:600px) {
+  .top-navbar{
+    position: relative;
+  }
+  .top-navbar-icons{
+    display: none;
+  }
+  .navbar-check{
+    display: block;
+    font-size: 20px;
+    
+  }
+  .navbar{
+    display: none;
+  }
+  .navbar-check:checked + .navbar{
+    display: flex ;
+  }
+  
+
+  .container3-full{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-test{
+    display: none;
+  }
+  #check:checked + .navbar-test{
+      display: block;
+  }
+  .chekbtn{
+    z-index: 1000;
+    position: relative;
+  }
+  .navbar-test{
+    height: 100vh;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 1000;
+    padding: 0rem 0rem 1rem 0rem;
+    border-radius: 5px;
+    
+  }
+  .navbar-test .top-navbar-logo{
+  background-color: rgb(141, 154, 197);
+  }
+  .top-navbar-logo a{
+    padding: 10px 0px;
+    /* margin-left: 0px; */
+  }
+  .top-navbar{
+    padding: 0;
+    margin: 0;
+  }
+  
+ 
+  .slider-content-c1{
+    font-size: 10px;
+    margin-top: -15px;
+  }
+  .slider-nav a{
+    width: 0.2rem;
+    height: 0.2rem;
+    
+  }
+  .container2 {
+    width: 100vw;
+    height: 30vh;
+    background-image: url("https://www.montecarlo.in/cdn/shop/files/Men_be465b5b-c24d-4d70-a9d4-273fa67e2c34.jpg?v=1697879681&width=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    object-fit: fill;
+    
+}
+.container2-content{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.container2-content a {
+  font-size: 10px;
+  padding-top: 0px;
+}
+.container3-image img{
+  width: 24rem;
+  height: 15rem;
+}
+.container4{
+  width: 100vw;
+ 
+}
+.container4-full{
+  display: flex;
+  
+}
+.container4-leftcontent {
+  width: 50%;
+  padding: 0px 5px;
+   
+}
+.container4-leftcontent p{
+  font-size: 20px;
+}
+.l-content{
+  font-size: 16px;
+}
+.container4-leftcontent{
+  width: 40%;
+}
+.container4-rightcontent{
+  padding-right: 10px;
+  
+}
+.container4-Card img{
+  width: 12rem;
+  height: 12rem;
+}
+.container5-images{
+  display: flex;
+}
+.c5-images{
+  width: 10rem;
+  height: 13rem;
+}
+.container6-full{
+  width: 100%;
+  height: 200px;
+}
+.container7-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.container7-imgaes-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.c7-image{
+  width: 10rem;
+  height: 10rem;
+}
+.container7-cards p{
+  display: flex;
+  font-size: 10px;
+}
+.container8-images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.c8-image {
+  width: 20rem;
+  height: 20rem;
+}
+.footer-content{
+  display: none;
+}
+#end-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
 }
