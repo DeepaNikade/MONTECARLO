@@ -7,9 +7,9 @@
 
     <link rel="stylesheet" href="style.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
@@ -22,10 +22,9 @@
       href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500&family=Montserrat:wght@400;500;600&family=Open+Sans:wght@600;700&family=Poppins:wght@400;500&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
-  
   </head>
   <body>
+    <!-- navbar start   also check for js at the end of page -->
     <header>
       <div class="top-navbar">
         <div class="top-navbar-logo">
@@ -34,47 +33,42 @@
           <a href=""><img src="./images/logo3.svg" alt="" /></a>
         </div>
 
-
         <!-- check button -->
         <div class="navbar-check">
-         
           <label for="check" class="checkbtn">
             <i class="fa-solid fa-bars"></i>
           </label>
 
-       
           <input type="checkbox" name="" id="check" />
 
           <div class="navbar-test">
             <div class="top-navbar-logo">
               <a href=""><img src="./images/logo1.avif" alt="" /></a>
-           
+
               <a href=""><img src="./images/logo3.svg" alt="" /></a>
 
               <div class="navbar-check">
-         
                 <label for="check" class="checkbtn">
                   <i class="fa-solid fa-xmark"></i>
                 </label>
-      
-             
+
                 <input type="checkbox" name="" id="check" />
+              </div>
+            </div>
+
+            <div class="navbar-items-check">
+              <ul>
+                <li><a href="" id="Men">MEN</a></li>
+                <li><a href="" id="Men">WOMEN</a></li>
+                <li><a href="" id="Men">KIDS</a></li>
+                <li><a href="" id="Men">HOME FURNISHING</a></li>
+                <li><a href="" id="Men">ACTIVE WEARE</a></li>
+                <li><a href="" id="Men">OUR BRANDS</a></li>
+              </ul>
             </div>
           </div>
+        </div>
 
-          <div class="navbar-items-check">
-            <ul>
-              <li>  <a href="" id="Men">MEN</a></li>
-              <li>  <a href="" id="Men">WOMEN</a></li>
-              <li>  <a href="" id="Men">KIDS</a></li>
-              <li>  <a href="" id="Men">HOME FURNISHING</a></li>
-              <li>  <a href="" id="Men">ACTIVE WEARE</a></li>
-              <li>  <a href="" id="Men">OUR BRANDS</a></li>
-            </ul>
-          </div>
-        </div>
-        </div>
-        
         <div class="top-navbar-icons">
           <a href="./wishlist.html">
             <span class="icon">
@@ -100,10 +94,7 @@
     </header>
 
     <div class="navbar" id="home">
-
-      
       <div class="navbar-logo">
-      
         <a href="">
           <img src="./images/nvbarlogo1.webp" alt="" />
         </a>
@@ -501,11 +492,11 @@
         </a>
       </div>
     </div>
-  
+    <!-- navbar end -->
+
     <section class="container">
       <div class="sliderWrapped">
         <div class="slider-container1">
-         
           <img
             id="slide1"
             src="https://www.montecarlo.in/cdn/shop/files/Banner01_Men_s_Sewater_Women_Cardighan.jpg?v=1698402547"
@@ -534,10 +525,15 @@
             </div>
             <div class="explore">
               <span>Explore More</span>
-              <ul><li>
-                <span class="material-symbols-outlined"> horizontal_rule </span>
-              </li></ul>
-             
+              <ul>
+                <li>
+                  <img
+                    src="./images/arrow_for_c1.png"
+                    alt=""
+                    style="filter: brightness(100) grayscale(0)"
+                  />
+                </li>
+              </ul>
             </div>
           </div>
           <div class="content">
@@ -546,17 +542,19 @@
             </div>
             <div class="explore">
               <span>Explore More</span>
-              <ul><li>
-                <span class="material-symbols-outlined"> horizontal_rule </span>
-              </li></ul>
-             
+              <ul>
+                <li>
+                  <img
+                    src="./images/arrow_for_c1.png"
+                    alt=""
+                    style="filter: brightness(100) grayscale(0)"
+                  />
+                </li>
+              </ul>
             </div>
           </div>
-         
         </div>
-      
-        
-      
+
         <div class="slider-nav">
           <a href="#slide1"></a>
           <a href="#slide2"></a>
@@ -564,8 +562,7 @@
           <a href="#slide4"></a>
         </div>
       </div>
-      </section>
-   
+    </section>
 
     <section class="container2">
       <div class="container2-content">
@@ -690,25 +687,23 @@
                 <a href="">Shop Now</a>
               </div>
             </div>
-            
 
-  
-            <button
-              id="prevBtn"
-              class="slider-arrow"
-              style="background: none; border: none"
-            >
-            <i class="fa-solid fa-arrow-left"></i>
-          
-            </button>
-            <button
-              id="nextBtn"
-              class="slider-arrow"
-              style="background: none; border: none"
-            >
-            <i class="fa-solid fa-arrow-right"></i>
-            </button>
-
+            <div class="c4-buttons">
+              <button
+                id="prevBtn"
+                class="slider-arrow"
+                style="background: none; border: none"
+              >
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+              <button
+                id="nextBtn"
+                class="slider-arrow"
+                style="background: none; border: none"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -777,9 +772,10 @@
           <p>PLAY TIME</p>
           <span>Shop Kidswear</span>
           <ul>
-            <li>  <span class="material-symbols-outlined"> horizontal_rule </span></li>
+            <li>
+              <span class="material-symbols-outlined"> horizontal_rule </span>
+            </li>
           </ul>
-        
         </div>
       </div>
     </section>
@@ -798,9 +794,21 @@
 
         <div class="container7-slider">
           <a href="#" class="carousel-btn" id="prev-btn1"
-            ><i class="fa-solid fa-arrow-left"></i>
+            ><i
+              class="fa-solid fa-arrow-left"
+              style="
+                color: black;
+                border: 1px solid black;
+                padding: 5px;
+                background-color: gray;
+                margin: 5px;
+              "
+            ></i>
           </a>
-          <div class="container7-imgaes-container">
+          <div
+            class="container7-imgaes-container"
+            id="container7-imgaes-container"
+          >
             <div class="container7-cards">
               <div class="heart">
                 <span class="material-symbols-outlined"> favorite </span>
@@ -1042,8 +1050,17 @@
             </div>
           </div>
           <a href="#" class="carousel-btn" id="next-btn1">
-            <i class="fa-solid fa-arrow-right"></i></a
-          >
+            <i
+              class="fa-solid fa-arrow-right"
+              style="
+                color: black;
+                border: 1px solid black;
+                padding: 5px;
+                background-color: gray;
+                margin: 5px;
+              "
+            ></i
+          ></a>
         </div>
       </div>
     </section>
@@ -1319,6 +1336,8 @@
     </footer>
 
     <script>
+      // navbar js
+
       document.addEventListener("DOMContentLoaded", function () {
         const navbar = document.querySelector(".navbar");
         const header = document.getElementById("home");
@@ -1331,6 +1350,8 @@
           }
         });
       });
+
+      // navbar js end
 
       // container4 slider
       document.addEventListener("DOMContentLoaded", function () {
@@ -1370,7 +1391,7 @@
       document.addEventListener("DOMContentLoaded", function () {
         const slider = document.querySelector(".container7-slider");
         const cardsContainer = document.querySelector(
-          ".container7-imgaes-container"
+          "#container7-imgaes-container"
         );
 
         let cardIndex = 0;
