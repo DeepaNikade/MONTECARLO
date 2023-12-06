@@ -93,7 +93,6 @@
 
 .custom-grid-collection{
     display: flex;
-    
 }
 
 .main-collection-heading{
@@ -563,7 +562,7 @@ button {
 }
 .sort-section {
   padding: 0px 14px;
-  margin:0px 0px 0px 850px
+  margin:0px 0px 0px 800px
 }
 .sortby-section {
   display: flex;
@@ -1172,12 +1171,18 @@ input#zero {
 
 
 /* Media-queries */
-@media screen and (max-width:378px){
-  .custom-grid-collection{
-    display: flex;
-    flex-direction: column;
-  }
+@media (min-width:768px){
+  .custom-tems {
+    width: 33.33%;
+    display: inline-block;
+    vertical-align: top;
 }
+
+.grid_title {
+    font-size: 18px;
+}
+}
+  
 
 
 
