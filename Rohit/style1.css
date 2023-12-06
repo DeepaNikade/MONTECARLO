@@ -55,7 +55,7 @@
     font-weight: 1000;
     position: relative;
     margin: 100px 0px;
-    right: 10px;
+    right: 20px;
     bottom: 10px;
     width: 30px;
 
@@ -101,7 +101,7 @@
   text-align: center;
   font-size: 32px;
   font-weight: 500;
-  line-height: 37px;
+  line-height: 5px;
   text-transform: uppercase;
   text-decoration: none solid rgb(41, 45, 105);
   margin: 0px 0px 26px 0px;
@@ -130,197 +130,13 @@ p.filter-heading {
 }
 
 
-.home-furnishing-container {
-  display: flex;
-  max-width: 63rem;
-  align-items: center;
-  padding: 2rem 0px 2rem 3rem;
-  justify-content: space-between;
-}
 
-.home-furnishing-heading {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 2rem;
-  line-height: 2.2rem;
-  letter-spacing: 0;
-  text-align: left;
-}
 
-.home-furnishing-titles #towels-padding {
-  padding: 0px 10px;
-}
 
-.home-furnishing-titles a {
-  font-family: "Roboto", sans-serif;
-  color: rgb(26, 26, 26);
-  padding: 0px 2rem;
-  border-right: 1px solid;
-  font-size: 1.125rem;
-  font-weight: 400;
-  line-height: 1.375rem;
-  letter-spacing: 0;
-  text-align: center;
-  text-decoration: none;
-}
 
-#border-right-unstyle {
-  border-right: none;
-}
 
-/* banner page */
-.home-furnishing-sliding-img .banner-img {
-  height: 100vh;
-  width: 100vw;
-  display: none;
-}
 
-.home-furnishing-banner {
-  position: relative;
-  text-align: center;
-}
 
-/* .mobile-banner {
-  display: none;
-}
-
-.dekstop-banner {
-  display: none;
-} */
-
-.banner-img.active-banner-img {
-  display: block;
-}
-
-#prev-btn,
-#next-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-  padding: 0.5rem 0px;
-  background-color: #fff;
-  color: rgb(22, 6, 127);
-}
-
-#prev-btn {
-  left: 10px;
-}
-
-#next-btn {
-  right: 10px;
-}
-
-.radio-btns {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-/* sub banner */
-.home-furnishing-sub-banner {
-  padding-top: 1.25rem;
-}
-
-.home-furnishing-sub-banner-container {
-  display: flex;
-  width: 100%;
-  /* flex-wrap: wrap; */
-  justify-content: space-around;
-}
-
-.home-furnishing-sub-banner-container a {
-  text-decoration: none;
-}
-
-.home-furnishing-sub-banner-container a:hover img {
-  transform: scale(1.01);
-}
-
-.home-furnishing-sub-banner-container a img {
-  max-width: 100%;
-  transition: transform 0.3s ease;
-}
-
-.home-furnishing-sub-banner-container a .sub-banner-text {
-  font-family: "Roboto", sans-serif;
-  margin-top: 0.5rem;
-  color: black;
-  font-weight: 700;
-  padding-bottom: 1rem;
-
-  width: 4rem;
-}
-
-.home-furnishing-banner-individual-image {
-  box-sizing: border-box;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.home-furnishing-sub-banner-container a:hover .sub-banner-text {
-  transform: translateY(1px);
-  border-bottom: 1px solid #000;
-}
-
-/* blanket banner image */
-.blanket-image {
-  padding-top: 2rem;
-  padding-bottom: 1.75rem;
-}
-
-.blanket-image img {
-  height: auto;
-  max-width: 100%;
-}
-
-/* bedsheet image banner with desc  */
-.bedsheet-image-details {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.bedsheet-image {
-  width: 66.67%;
-}
-
-.bedsheet-image img {
-  width: 100%;
-}
-
-.bedsheet-details {
-  font-family: "Roboto", sans-serif;
-  padding-left: 2rem;
-  width: 33.33%;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.bedsheet-details h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 1.75rem;
-}
-
-.bedsheet-details p {
-  font-family: "Roboto", sans-serif;
-  color: rgb(69, 67, 67);
-}
-
-.shop-bedsheet,
-.shop-blanket,
-.shop-towels {
-  font-family: "Roboto", sans-serif;
-  background-color: #494343;
-  color: #fff;
-  padding: 1rem;
-  font-weight: 700;
-  font-size: 1rem;
-}
 
 /* best seller */
 .individual-cards-main {
@@ -339,7 +155,7 @@ p.filter-heading {
   margin-bottom: 2rem;
 }
 
-.best-seller {
+/* .best-seller {
   margin-top: 3rem;
 }
 
@@ -348,9 +164,9 @@ p.filter-heading {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.best-seller-heading {
+/* .best-seller-heading {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -370,7 +186,7 @@ p.filter-heading {
   margin: 0.75rem 0px;
   font-size: 0.75rem;
   line-height: 1.5rem;
-}
+} */
 
 .best-seller-cards {
   max-width: 100%;
@@ -401,8 +217,8 @@ p.filter-heading {
 }
 
 .best-seller-card a p {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .best-seller-card p {
@@ -573,6 +389,9 @@ p.filter-heading {
 
 button {
   cursor: pointer;
+  border: none;
+  background-color: white;
+  font-weight: 500px;
 }
 
 #give-me-padding {
@@ -742,12 +561,20 @@ button {
   width: 100%;
 }
 .sort-section {
-  
-  margin:70px 0px 0px 700px
+  padding: 0px 14px;
+  margin:0px 0px 0px 800px
 }
 .sortby-section {
   display: flex;
   margin-bottom: 24px;
+}
+span.product-sortby {
+  padding-right: 8px;
+  font-size: 15px;
+  font-weight: 100px;
+}
+svg.sort-by-arrow {
+  margin-left: 6px;
 }
 button.collapsible {
   display: flex;
@@ -1066,8 +893,9 @@ input#zero {
 }
 
 .individual-card .price-p {
-  font-weight: 700;
-  font-size: 1.25rem;
+  font-weight: 300;
+  font-size: 15px;
+  color: black;
 }
 
 .individual-card .price-p .original-price-span {
@@ -1082,8 +910,14 @@ input#zero {
 }
 
 .individual-add-to-cart-button {
-  margin-bottom: 1rem;
+  margin-bottom: 14px;
+  /* border-radius: 5px; */
 }
+.individual-add-to-cart-button:hover {
+  background-color: lightgray;
+  color: black;
+  transition-timing-function:ease-in-out;
+ }
 
 /* for number */
 .page-number-container-main {
@@ -1292,184 +1126,64 @@ input#zero {
   color: rgb(52, 50, 50);
 }
 
+/* Pagination */
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.pagination-heading{
+  border: 2px solid black;
+  width: 40px;
+  text-align: center;
+  padding-top: 6px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.pagination a {
+  color: black;
+  float: inline-start;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  
+}
+.pagination a:last-child{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* pagination */
+
+/* Direct-link-list */
+.direct-links-list {
+  margin: 60px 0px;
+}
+
+.direct-link-container{
+  padding: 0px 40px;
+}
+.direct-link-container span{
+  font-size: 14px;
+}
+
 
 /* Media-queries */
-@media only screen and (max-width: 376px) {
-  .home-furnishing-container {
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 0px;
-  }
-
-  .home-furnishing-titles {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    width: 360px;
-    justify-content: center;
-  }
-}
-
-@media only screen and (max-width: 769px) {
-  .blanket-image img {
-    content: url(https://www.montecarlo.in/cdn/shop/files/Mink_MB_d2dddf58-619a-468e-94d6-da31f681a53b.jpg?v=1698401840&width=1600);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .home-furnishing-banner
-    .home-furnishing-sliding-img
-    #home-furnishing-banner1 {
-    content: url(https://www.montecarlo.in/cdn/shop/files/MHF01_Blanket.jpg?v=1698401771&width=3000);
-    object-fit: cover;
-  }
-
-  .home-furnishing-banner
-    .home-furnishing-sliding-img
-    #home-furnishing-banner2 {
-    content: url(https://www.montecarlo.in/cdn/shop/files/MHF03_Towel.jpg?v=1698401772&width=3000);
-  }
-
-  #home-furnishing-banner3 {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .home-furnishing-banner-individual-image:nth-child(2) {
-    padding-left: 5rem;
-
-    width: auto;
-  }
-
-  .home-furnishing-banner-individual-image:nth-child(1) {
-    width: 100%;
-  }
-
-  .home-furnishing-banner-individual-image:nth-child(3) {
-    display: none;
-  }
-
-  .home-furnishing-sub-banner-container a img {
-    max-width: 100vh;
-  }
-
-  .bedsheet-image-details {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-
-  .bedsheet-image img {
-    width: auto;
-  }
-
-  .bedsheet-details {
-    margin-top: 2rem;
-    width: auto;
-  }
-
-  .luxury-container {
-    flex-direction: column-reverse;
-    aspect-ratio: 3/4;
-  }
-
-  .luxury-container img {
-    width: auto;
-  }
-  .shop-now {
-    position: relative;
-    bottom: 110px;
-    left: 35%;
-    padding: 1rem;
-    background-color: #fff;
-    color: #000;
-    border: none;
-    letter-spacing: 0px;
-    font-size: 0.5rem;
-    overflow: hidden;
+@media (min-width:768px){
+  .custom-tems {
+    width: 33.33%;
     display: inline-block;
-  }
-
-  .luxury-details {
-    margin-top: 2rem;
-    width: 50%;
-  }
-
-  .luxury-images {
-    width: 50%;
-    max-width: 50%;
-  }
-
-  .shop-gift-btn {
-    position: relative;
-    bottom: 110px;
-    left: 10%;
-    padding: 1rem;
-    background-color: #fff;
-    color: #000;
-    border: none;
-    letter-spacing: 0px;
-    font-size: 0.5rem;
-    overflow: hidden;
-    display: inline-block;
-  }
-
-  .four-steps-title {
-    padding-bottom: 12rem;
-  }
-
-  .four-steps-div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 0px;
-    grid-gap: 0px;
-    padding-left: 5rem;
-  }
-
-  .four-steps-div .four-steps-details {
-    box-sizing: border-box;
-    width: calc(50% - 1.5rem); /* Two items per row with 3rem gap in between */
-    margin-bottom: 3rem;
-  }
-
-  .individual-details h6 {
-    width: 8rem;
-  }
-
-  /* individual pages */
-  .path-links {
-    border-bottom: 1px solid white;
-    padding-bottom: 1.5rem;
-    padding-left: 2.5rem;
-  }
-
-  .bedsheet-main-filter,
-  .towel-main-filter,
-  .blanket-main-filter {
-    display: none;
-  }
-
-  .sidebar {
-    display: none;
-  }
-
-  .individual-cards-main {
-    max-width: 100%;
-    width: 100%;
-    margin-left: 0px;
-  }
-
-  .individual-cards-main .individual-card {
-    width: 30%;
-    margin-left: 1rem;
-  }
-
-  .filter-sortby-section {
-    display: block;
-  }
+    vertical-align: top;
 }
+
+.grid_title {
+    font-size: 18px;
+}
+}
+  
+
 
 
 
