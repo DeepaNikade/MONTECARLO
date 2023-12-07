@@ -388,7 +388,7 @@ section {
   width: 20%;
 }
 
-.material-symbols-outlined {
+.container2-content .material-symbols-outlined {
   opacity: 0;
 }
 
@@ -625,6 +625,9 @@ section {
   color: white;
   padding-bottom: 20px;
   align-items: center;
+}
+.c6-content .material-symbols-outlined{
+  opacity: 0;
 }
 .c6-content p {
   font-size: 62px;
