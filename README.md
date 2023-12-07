@@ -1,4 +1,5 @@
 Project Name: Monte Carlo Shop
+
 Overview
 Monte Carlo Shop is an e-commerce platform designed to provide users with a seamless shopping experience. 
 The platform allows users to browse a wide range of products, add items to their cart, and complete the purchase securely. 
