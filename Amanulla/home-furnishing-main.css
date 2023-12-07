@@ -20,6 +20,7 @@ button {
   display: flex;
   max-width: 63rem;
   align-items: center;
+  overflow: hidden;
   padding: 2rem 0px 2rem 3rem;
   justify-content: space-around;
 }
@@ -547,7 +548,7 @@ button {
 
   left: 0px;
 
-  z-index: 9999;
+  z-index: 1;
   display: block;
   margin-top: 3rem;
   padding: 3rem 2rem;
@@ -687,9 +688,14 @@ button {
 .cart-button-popup {
   background-color: #25306e;
   border: none;
+  color: #fff;
 }
 
 .tablet-filter-close-btn-pop,
 .view-results-btn {
   display: none;
+}
+
+.navbar.scrolled button {
+  background-color: #24234e;
 }

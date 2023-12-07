@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Shopping Brand For Men, Women & Kids - Monte Carlo</title>
-    <link rel="stylesheet" href="home-purnishing-main.css" />
+    <link rel="stylesheet" href="home-furnishing-main.css" />
     <link rel="stylesheet" href="common.css" />
-    <link rel="stylesheet" href="home-purnishing-mediaquerry.css" />
+    <link rel="stylesheet" href="home-furnishing-mediaquerry.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -486,8 +486,8 @@
     <section class="home-blankets-main">
       <div class="path-navigation">
         <div class="path-links">
-          <a href="home-purnishing-main.html" class="path-link-main">Home/</a>
-          <a href="home-purnishing-blankets.html" class="path-link-sub"
+          <a href="home-furnishing-main.html" class="path-link-main">Home/</a>
+          <a href="home-furnishing-blankets.html" class="path-link-sub"
             >Blankets</a
           >
         </div>
@@ -1230,7 +1230,7 @@
               arrow_left_alt
             </span></a
           >
-          <a href="home-purnishing-blankets.html"><span>1</span></a>
+          <a href="home-furnishing-blankets.html"><span>1</span></a>
           <a href="#"><span>2</span></a>
           <a href="#"><span>3</span></a>
           <a href="#"><span class="active-page-last">4</span></a>
@@ -1369,6 +1369,19 @@
           container.classList.toggle("active");
         }
       }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const navbar = document.querySelector(".navbar");
+        const header = document.getElementById("home");
+
+        window.addEventListener("scroll", function () {
+          if (window.scrollY > header.offsetTop) {
+            navbar.classList.add("scrolled");
+          } else {
+            navbar.classList.remove("scrolled");
+          }
+        });
+      });
     </script>
     <script src="script.js"></script>
   </body>

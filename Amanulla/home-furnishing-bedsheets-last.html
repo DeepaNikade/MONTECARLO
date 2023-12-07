@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Shopping Brand For Men, Women & Kids - Monte Carlo</title>
-    <link rel="stylesheet" href="home-purnishing-main.css" />
+    <link rel="stylesheet" href="home-furnishing-main.css" />
     <link rel="stylesheet" href="common.css" />
-    <link rel="stylesheet" href="home-purnishing-mediaquerry.css" />
+    <link rel="stylesheet" href="home-furnishing-mediaquerry.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -486,8 +486,8 @@
     <section class="home-bedsheets-main">
       <div class="path-navigation">
         <div class="path-links">
-          <a href="home-purnishing-main.html" class="path-link-main">Home/</a>
-          <a href="home-purnishing-bedsheets.html" class="path-link-sub"
+          <a href="home-furnishing-main.html" class="path-link-main">Home/</a>
+          <a href="home-furnishing-bedsheets.html" class="path-link-sub"
             >Bedsheets</a
           >
         </div>
@@ -1318,7 +1318,7 @@
               arrow_left_alt
             </span></a
           >
-          <a href="home-purnishing-bedsheets.html"><span>1</span></a>
+          <a href="home-furnishing-bedsheets.html"><span>1</span></a>
           <a href="#"><span>...</span></a>
           <a href="#"> <span>12</span></a>
           <a href="#"> <span>13</span></a>
@@ -1463,6 +1463,19 @@
           container.classList.toggle("active");
         }
       }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const navbar = document.querySelector(".navbar");
+        const header = document.getElementById("home");
+
+        window.addEventListener("scroll", function () {
+          if (window.scrollY > header.offsetTop) {
+            navbar.classList.add("scrolled");
+          } else {
+            navbar.classList.remove("scrolled");
+          }
+        });
+      });
     </script>
     <script src="script.js"></script>
   </body>

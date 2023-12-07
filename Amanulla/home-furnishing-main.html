@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Shopping Brand For Men, Women & Kids - Monte Carlo</title>
-    <link rel="stylesheet" href="home-purnishing-main.css" />
-    <link rel="stylesheet" href="home-purnishing-mediaquerry.css" />
+    <link rel="stylesheet" href="home-furnishing-main.css" />
+    <link rel="stylesheet" href="home-furnishing-mediaquerry.css" />
     <link rel="stylesheet" href="common.css" />
     <link
       rel="stylesheet"
@@ -510,9 +510,9 @@
         <div class="home-furnishing-container">
           <div class="home-furnishing-heading">Homes by Monte Carlo</div>
           <div class="home-furnishing-titles">
-            <a href="home-purnishing-bedsheets.html">Bedsheets</a>
+            <a href="home-furnishing-bedsheets.html">Bedsheets</a>
             <a href="home-furnishing-towels.html" id="towels-padding">Towles</a>
-            <a href="home-purnishing-blankets.html" id="border-right-unstyle"
+            <a href="home-furnishing-blankets.html" id="border-right-unstyle"
               >Blankets</a
             >
           </div>
@@ -524,7 +524,7 @@
     <section class="home-furnishing-banner" id="image-container">
       <!-- main banner -->
       <div class="home-furnishing-sliding-img" id="slider-images">
-        <a href="home-purnishing-blankets.html">
+        <a href="home-furnishing-blankets.html">
           <img
             id="home-furnishing-banner1"
             class="banner-img active-banner-img"
@@ -540,7 +540,7 @@
             alt="Sliding Towel Banner Image"
           />
         </a>
-        <a href="home-purnishing-bedsheets.html">
+        <a href="home-furnishing-bedsheets.html">
           <img
             id="home-furnishing-banner3"
             class="banner-img"
@@ -643,7 +643,7 @@
     <section class="home-furnishing-sub-banner">
       <div class="home-furnishing-sub-banner-container">
         <div class="home-furnishing-banner-individual-image">
-          <a href="home-purnishing-bedsheets.html">
+          <a href="home-furnishing-bedsheets.html">
             <img
               src="https://www.montecarlo.in/cdn/shop/files/CT01_Bedsheet.jpg?v=1698238643&width=400"
               alt="Sliding Bedsheet Sub-Banner Image"
@@ -661,7 +661,7 @@
           </a>
         </div>
         <div class="home-furnishing-banner-individual-image">
-          <a href="home-purnishing-blankets.html">
+          <a href="home-furnishing-blankets.html">
             <img
               src="https://www.montecarlo.in/cdn/shop/files/CT01_Blanket.jpg?v=1698238644&width=400"
               alt="Sliding Blanket Sub-Banner Image"
@@ -672,7 +672,7 @@
       </div>
       <!-- blanket image banner -->
       <div class="blanket-image">
-        <a href="home-purnishing-blankets.html">
+        <a href="home-furnishing-blankets.html">
           <img
             src="https://www.montecarlo.in/cdn/shop/files/Mink_Blankets.jpg?v=1698304376&width=2000"
             alt="Blanket Image Large"
@@ -697,7 +697,7 @@
             colours which are mixed and matched in a bold, edgy way. So they
             enhance the classic look but in a dynamic way with a vibrant rhythm.
           </p>
-          <a href="home-purnishing-bedsheets.html">
+          <a href="home-furnishing-bedsheets.html">
             <button class="shop-bedsheet">
               SHOP MORE BEDDING
               <svg
@@ -809,7 +809,7 @@
             craftsmanship. It is time to get into your comfort zone with India’s
             most loved blanket brand.
           </p>
-          <a href="home-purnishing-blankets.html">
+          <a href="home-furnishing-blankets.html">
             <button class="shop-blanket">
               SHOP BLANKETS
               <svg
@@ -841,7 +841,7 @@
           />
           <p>Plush Comforters</p>
 
-          <a href="home-purnishing-bedsheets.html"
+          <a href="home-furnishing-bedsheets.html"
             ><button class="shop-now">
               Shop Now
               <svg
@@ -1024,6 +1024,19 @@
         );
         selectedImage.classList.add("active-banner-img");
       }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const navbar = document.querySelector(".navbar");
+        const header = document.getElementById("home");
+
+        window.addEventListener("scroll", function () {
+          if (window.scrollY > header.offsetTop) {
+            navbar.classList.add("scrolled");
+          } else {
+            navbar.classList.remove("scrolled");
+          }
+        });
+      });
     </script>
 
     <script src="script.js"></script>
