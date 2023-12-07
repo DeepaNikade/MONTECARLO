@@ -96,3 +96,22 @@ cartPopupBtn.addEventListener("click", () => {
   overLayc.style.opacity = "0.5";
   overLayc.style.display = "block";
 });
+
+// filter and sort by for tab and mobile view
+document.addEventListener("DOMContentLoaded", function () {
+  const filterBtn = document.querySelector(".media-filter-btn");
+  const sideBar = document.querySelector(".home-cards-main .sidebar");
+
+  filterBtn.addEventListener("click", () => {
+    sideBar.style.display =
+      sideBar.style.display === "block" ? "none" : "block";
+    document.body.style.overflow = "hidden";
+  });
+
+  const sidebarClosebtn = document.querySelector(".filter-close-button");
+  function closeSider() {
+    sideBar.style.display = "none";
+  }
+
+  sidebarClosebtn.addEventListener("click", closeSider);
+});

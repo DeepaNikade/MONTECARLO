@@ -157,6 +157,7 @@
 
   .sidebar {
     display: none;
+    width: 50%;
   }
 
   .individual-cards-main {
@@ -170,7 +171,13 @@
     margin-left: 1rem;
   }
 
-  .filter-sortby-section {
+  .filter-sortby-section,
+  .view-results-btn {
     display: block;
+  }
+  .tablet-filter-close-btn-pop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
   }
 }
