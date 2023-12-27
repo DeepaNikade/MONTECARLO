@@ -846,7 +846,7 @@ section {
   z-index: 1;
 }
 .c8-cards:hover {
-  background-color: rgb(84, 85, 81);
+  background: linear-gradient(rgba(0, 0, 0, 0.3));
   opacity: 0.6;
 
   /* z-index: 2; */
